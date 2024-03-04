@@ -69,9 +69,19 @@ I did not have a specific reason for selecting the amount of neurons and layers.
 
 Were you able to achieve the target model performance?
 
-I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7282% in the initial model to 7310% in the first attempt and 7286% in the second attempt. However, on my third attempt, my model's performance decreased to 7271%. 
+I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7282% in the initial model to 7304% in the first attempt and 7286% in the second attempt. However, on my third attempt, my model's performance decreased to 7271%. 
 
+Initial Attempt
+![alt text](<Screenshot (118)-1.png>)
 
+Initial Optimization Attempt
+![alt text](<Screenshot (119).png>)
+
+Second Optimization Attempt
+![alt text](<Screenshot (120).png>)
+
+Third Optimization Attempt
+![alt text](<Screenshot (121).png>)
 
 What steps did you take in your attempts to increase model performance?
 
