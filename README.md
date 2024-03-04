@@ -48,12 +48,28 @@ EIN and NAME are neither targets nor features, so they should be removed from th
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-I used 
+Number of neurons:
+- First hidden layer: 8 neurons
+- Second hidden layer: 5 neurons
+- Output layer: 1 neuron
+
+Number of layers:
+- Input layer: Values from X_train
+- Hidden layers: 2
+- Output layer: 1
+
+Activation functions:
+- Hidden layers: ReLU
+- Output layer: Sigmoid
 
 ![alt text](<Screenshot (112).png>)
 
+I did not have a specific reason for selecting the amount of neurons and layers. I chose those to get a baseline upon which to adjust in the optimization, while avoiding overfitting. As for the activation functions, I decided to select ReLU for the hidden layers, due to its ability to handle the vanishing gradient problem and it's simplicity. As for the output layer, I selected Sigmoid since it squashes output values between 0 and 1, representing probabilities.
+
 
 Were you able to achieve the target model performance?
+
+I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7282% in the initial model to 7310% in the first attempt and 7286% in the second attempt. However, on my third attempt, my model's performance decreased to 7271%. 
 
 
 
