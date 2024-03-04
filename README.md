@@ -1,4 +1,4 @@
-#Module 21 Challenge - Deep-Learning-Challenge
+#Module 21 Challenge 
 
 Overview of the analysis: Explain the purpose of this analysis.
 
