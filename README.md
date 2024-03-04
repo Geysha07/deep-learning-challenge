@@ -72,7 +72,7 @@ Were you able to achieve the target model performance?
 I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7283% in the initial model to 7324% in the first attempt, 7285% in the second attempt and 7308% in the third attempt. 
 
 Initial Attempt
-![alt text](<Screenshot (118)-1.png>)
+![alt text](<Screenshot (118).png>)
 
 Initial Optimization Attempt
 ![alt text](<Screenshot (127).png>)
