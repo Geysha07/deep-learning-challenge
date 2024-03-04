@@ -69,7 +69,7 @@ I did not have a specific reason for selecting the amount of neurons and layers.
 
 Were you able to achieve the target model performance?
 
-I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7282% in the initial model to 7304% in the first attempt and 7286% in the second attempt. However, on my third attempt, my model's performance decreased to 7271%. 
+I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7282% in the initial model to 7304% in the first attempt, 7286% in the second attempt and 7318% in the third attempt. 
 
 Initial Attempt
 ![alt text](<Screenshot (118)-1.png>)
@@ -81,10 +81,21 @@ Second Optimization Attempt
 ![alt text](<Screenshot (120).png>)
 
 Third Optimization Attempt
-![alt text](<Screenshot (121).png>)
+![alt text](<Screenshot (122).png>)
 
 What steps did you take in your attempts to increase model performance?
 
+In my attempts to increase model performance, I made the following changes during optimization:
 
+- Changed the cutoff values for application types to be replaced with other from less than 500 to less than 1065.
+- Changed the cutoff values for classifications to be replaced with other from less than 1000 to less than 777.
+- In my first optimization attempt, I increased the neurons in both hidden layers, from 8 and 5 to 10 and 8, for the first and second layer, respectively.
+![alt text](<Screenshot (124).png>)
+- In the second optimization attempt, I added a third hidden layer with 5 neurons and the tanh activation function.
+![alt text](<Screenshot (125).png>)
+- In my third and final optimization attempt, I eliminated the third hidden layer and increased the neurons in hidden layer one and two to 20.
+![alt text](<Screenshot (126).png>)
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+In summary, the model was unable to meet the target accuracy of 75%, only being able to reach 73% with the optimization. My optimizations increased the accuracy, but not very much. If I didn't have time constraints, I would have added more layers with more neurons and tried different activation functions until I reached the desired accuracy percentage.
