@@ -16,7 +16,7 @@ Alphabet Soup, a nonprofit foundation, tasked us with finding a tool that will s
 - ASK_AMT—Funding amount requested
 - IS_SUCCESSFUL—Was the money used effectively
 
-Using the information contained within the CSV, we used machine learning and neural network models to assist Alphabet Soup select applicants.
+Using the information contained within the CSV, we used machine learning and neural network models to assist Alphabet Soup in selecting applicants.
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
@@ -24,7 +24,7 @@ Data Preprocessing
 
 What variable(s) are the target(s) for your model?
 
-The values within the "IS_SUCCESSFUL" column are our targets for the model.
+The values within the "IS_SUCCESSFUL" column are the targets for the model.
 
 What variable(s) are the features for your model?
 
@@ -69,19 +69,19 @@ I did not have a specific reason for selecting the amount of neurons and layers.
 
 Were you able to achieve the target model performance?
 
-I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7282% in the initial model to 7304% in the first attempt, 7286% in the second attempt and 7318% in the third attempt. 
+I was not able to achieve the target model performance of 75%. In the first optimization attempt, I managed to increase slightly from 7283% in the initial model to 7324% in the first attempt, 7285% in the second attempt and 7308% in the third attempt. 
 
 Initial Attempt
 ![alt text](<Screenshot (118)-1.png>)
 
 Initial Optimization Attempt
-![alt text](<Screenshot (119).png>)
+![alt text](<Screenshot (127).png>)
 
 Second Optimization Attempt
-![alt text](<Screenshot (120).png>)
+![alt text](<Screenshot (128).png>)
 
 Third Optimization Attempt
-![alt text](<Screenshot (122).png>)
+![alt text](<Screenshot (129).png>)
 
 What steps did you take in your attempts to increase model performance?
 
